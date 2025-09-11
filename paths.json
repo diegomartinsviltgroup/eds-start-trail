@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/eds-start-trail-site/:/",
+    "/content/eds-start-trail/:/",
     "/content/eds-start-trail-site/configuration:/.helix/config.json",
     "/content/eds-start-trail-site/metadata:/metadata.json"
   ],
