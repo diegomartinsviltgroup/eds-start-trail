@@ -1,10 +1,8 @@
 {
-  "mappings": [
-    "/content/eds-start-trail-site/:/",
-    "/content/eds-start-trail-site/configuration:/.helix/config.json",
-    "/content/eds-start-trail-site/metadata:/metadata.json"
-  ],
-  "includes": [
-    "/content/eds-start-trail-site/"
-  ]
+	"mappings": [
+		"/content/eds-standard-diegomartins/:/",
+		"/content/eds-standard-diegomartins/configuration:/.helix/config.json",
+		"/content/eds-standard-diegomartins/metadata:/metadata.json"
+	],
+	"includes": ["/content/eds-standard-diegomartins/"]
 }
