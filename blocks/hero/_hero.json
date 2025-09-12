@@ -42,11 +42,11 @@
           "valueType": "string"
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
+          "component": "button",
+          "name": "button",
+          "value": "",
+          "label": "Button",
+          "valueType": "string"
         }
       ]
     }
