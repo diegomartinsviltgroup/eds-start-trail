@@ -221,31 +221,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "quote",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Image alt text",
-        "required": true
-      },
-      {
-        "component": "richtext",
-        "name": "textContent_text",
-        "label": "Text",
-        "valueType": "string",
-        "required": true
-      },
-      {
-        "component": "button",
-        "name": "button",
-        "value": "",
-        "label": "Button",
-        "valueType": "string"
-      }
-    ]
   }
 ]
