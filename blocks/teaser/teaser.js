@@ -18,7 +18,13 @@ export default function decorate(block) {
   block.querySelector('h1, h2, h3, h4, h5, h6').classList.add('title');
 
   block.querySelectorAll('p').forEach((p) => {
-    p.classList.add('terms-and-conditions');
+    const innerHTML = p.innerHTML?.trim();
+
+    // If the paragraph starts with Terms and conditions: then style it as such
+    if (innerHTML?.startsWith('Terms and conditions:')) {
+      /* If a paragraph starts with '*', add a special CSS class. */
+      p.classList.add('terms-and-conditions');
+    }
   });
 
   addEventListeners(block);
