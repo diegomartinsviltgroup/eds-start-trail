@@ -28,5 +28,9 @@
   {
     "id": "column",
     "components": ["text", "image", "button", "title"]
+  },
+  {
+    "id": "quote",
+    "components": ["text", "button", "title"]
   }
 ]
