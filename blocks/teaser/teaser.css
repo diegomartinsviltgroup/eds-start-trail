@@ -31,14 +31,6 @@
         }
     }
 
-    &.image-left {
-        transform: scale(0.8);
-    }
-
-    &.image-right {
-        transform: scale(0.6);
-    }
-
     /* The teaser text content */
     .content {
         position: absolute;
