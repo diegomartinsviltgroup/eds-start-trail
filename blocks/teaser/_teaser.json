@@ -24,6 +24,27 @@
       "id": "teaser",
       "fields": [
         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Teaser options",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Image on right",
+              "value": "image-right"
+            },
+            {
+              "name": "Image on left",
+              "value": "image-left"
+            }
+          ]
+        },
+        {
           "component": "reference",
           "valueType": "string",
           "name": "image",
