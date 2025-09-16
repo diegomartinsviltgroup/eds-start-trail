@@ -249,13 +249,6 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "title",
-        "label": "Título do Hero",
-        "required": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "imageAlt",
         "label": "Image alt text",
         "required": true

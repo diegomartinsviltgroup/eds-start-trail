@@ -22,7 +22,7 @@ export default function decorate(block) {
 
     // If the paragraph starts with Terms and conditions: then style it as such
     if (innerHTML?.startsWith('Terms and conditions:')) {
-      /* If a paragraph starts with '*', add a special CSS class. */
+      /* If a paragraph starts with "*", add a special CSS class. */
       p.classList.add('terms-and-conditions');
     }
   });
