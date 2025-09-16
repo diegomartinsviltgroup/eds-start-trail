@@ -12,16 +12,14 @@
 
 :root {
     /* colors */
-    --background-color: white;
-    --light-color: #f8f8f8;
-    --dark-color: #505050;
-    --text-color: #131313;
-    --link-color: #3b63fb;
-    --link-hover-color: #1d3ecf;
+    --background-color: #171717;
+    --white: #fff;
+    --pink: #ff006a;
+    --gray: #212121;
 
     /* fonts */
-    --body-font-family: roboto, roboto-fallback, sans-serif;
-    --heading-font-family: roboto-condensed, roboto-condensed-fallback,
+    --body-font-family: 'Inter', roboto, roboto-fallback, sans-serif;
+    --heading-font-family: 'Inter', roboto-condensed, roboto-condensed-fallback,
         sans-serif;
 
     /* body sizes */
@@ -75,7 +73,7 @@ body {
     display: none;
     margin: 0;
     background-color: var(--background-color);
-    color: var(--text-color);
+    color: var(--white);
     font-family: var(--body-font-family);
     font-size: var(--body-font-size-m);
     line-height: 1.6;
