@@ -23,7 +23,7 @@
       "fields": [
         {
           "component": "richtext",
-          "name": "Featured Title",
+          "name": "featured-title",
           "value": "",
           "label": "Título da Featured",
           "valueType": "string"
