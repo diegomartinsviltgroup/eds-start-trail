@@ -205,6 +205,21 @@
           }
         },
         {
+          "title": "Featured Item",
+          "id": "featured-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "featured-item",
+                  "model": "featured-item"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Fragment",
           "id": "fragment",
           "plugins": {
