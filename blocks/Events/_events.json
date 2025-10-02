@@ -113,7 +113,7 @@
           "label": "Link do botão"
         },
         {
-          "name": "linkText",
+          "name": "ctaText",
           "component": "text",
           "label": "Texto do botão"
         }
