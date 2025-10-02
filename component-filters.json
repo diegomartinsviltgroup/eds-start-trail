@@ -19,7 +19,8 @@
       "teaser",
       "featured",
       "about",
-      "events"
+      "events",
+      "about-us"
     ]
   },
   {
@@ -48,12 +49,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "featured",
-    "components": [
-      "featured-item"
     ]
   }
 ]

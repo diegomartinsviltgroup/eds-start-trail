@@ -15,21 +15,6 @@
           }
         }
       }
-    },
-    {
-      "title": "Featured Item",
-      "id": "featured-item",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item",
-            "template": {
-              "name": "featured-item",
-              "model": "featured-item"
-            }
-          }
-        }
-      }
     }
   ],
   "models": [
@@ -42,33 +27,15 @@
           "value": "",
           "label": "Título da Featured",
           "valueType": "string"
-        }
-      ]
-    },
-    {
-      "id": "featured-item",
-      "fields": [
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Imagens da featured",
-          "multi": false
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "imageAlt",
-          "label": "Image alt text",
-          "required": true
+          "component": "reference",
+          "name": "image",
+          "label": "Logo da marca",
+          "multi": true
         }
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "featured",
-      "components": ["featured-item"]
-    }
-  ]
+  "filters": []
 }
