@@ -53,7 +53,7 @@
           "valueType": "string",
           "name": "image",
           "label": "Imagens da featured",
-          "multi": true
+          "multi": false
         },
         {
           "component": "text",
