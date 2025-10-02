@@ -142,6 +142,112 @@
     ]
   },
   {
+    "id": "about-us",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Texto da seção",
+        "required": true
+      },
+      {
+        "name": "link",
+        "component": "aem-content",
+        "label": "Link do botão"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Texto do botão"
+      }
+    ]
+  },
+  {
+    "id": "event-item",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Imagem do artista",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Nome do artista",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Descrição do evento",
+        "required": true
+      },
+      {
+        "name": "link",
+        "component": "aem-content",
+        "label": "Link do botão"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Texto do botão"
+      }
+    ]
+  },
+  {
+    "id": "event-cta",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Descrição cta",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Descrição do evento",
+        "required": true
+      },
+      {
+        "name": "cta",
+        "component": "aem-content",
+        "label": "Link do botão"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Texto do botão"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -176,6 +282,32 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "featured",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "Featured Title",
+        "value": "",
+        "label": "Título da Featured",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Imagens da featured",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
       }
     ]
   },

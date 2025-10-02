@@ -20,6 +20,12 @@
     ]
   },
   {
+    "id": "events",
+    "components": [
+      "event-item"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
