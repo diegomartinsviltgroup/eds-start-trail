@@ -294,7 +294,12 @@
         "value": "",
         "label": "Título da Featured",
         "valueType": "string"
-      },
+      }
+    ]
+  },
+  {
+    "id": "featured-item",
+    "fields": [
       {
         "component": "reference",
         "valueType": "string",
