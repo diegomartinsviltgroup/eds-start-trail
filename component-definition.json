@@ -198,7 +198,7 @@
                 "template": {
                   "name": "Featured",
                   "model": "featured",
-                  "title": "Featured"
+                  "filter": "featured"
                 }
               }
             }

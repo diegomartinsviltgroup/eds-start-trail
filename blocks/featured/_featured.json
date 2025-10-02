@@ -10,7 +10,7 @@
             "template": {
               "name": "Featured",
               "model": "featured",
-              "title": "Featured"
+              "filter": "featured"
             }
           }
         }
@@ -34,32 +34,12 @@
   ],
   "models": [
     {
-      "id": "featured",
-      "fields": [
-        {
-          "component": "richtext",
-          "name": "featured-title",
-          "value": "",
-          "label": "Título da Featured",
-          "valueType": "string"
-        }
-      ]
-    },
-    {
       "id": "featured-item",
       "fields": [
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "text",
-          "label": "Nome da marca",
-          "required": true
-        },
-        {
           "component": "reference",
-          "valueType": "string",
           "name": "image",
-          "label": "Imagens da featured",
+          "label": "Imagem do artista",
           "multi": false
         },
         {
@@ -68,6 +48,30 @@
           "name": "imageAlt",
           "label": "Image alt text",
           "required": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Nome do artista",
+          "required": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "text",
+          "label": "Descrição do evento",
+          "required": true
+        },
+        {
+          "name": "link",
+          "component": "aem-content",
+          "label": "Link do botão"
+        },
+        {
+          "name": "linkText",
+          "component": "text",
+          "label": "Texto do botão"
         }
       ]
     }
