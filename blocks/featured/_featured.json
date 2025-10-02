@@ -65,5 +65,10 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "featured",
+      "components": ["featured-item"]
+    }
+  ]
 }
