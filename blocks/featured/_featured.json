@@ -75,7 +75,7 @@
   "filters": [
     {
       "id": "featured",
-      "components": ["feratured-item"]
+      "components": ["featured-item"]
     }
   ]
 }

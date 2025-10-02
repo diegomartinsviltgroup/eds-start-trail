@@ -54,7 +54,7 @@
   {
     "id": "featured",
     "components": [
-      "feratured-item"
+      "featured-item"
     ]
   }
 ]
