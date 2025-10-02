@@ -16,7 +16,10 @@
       "cards",
       "columns",
       "fragment",
-      "teaser"
+      "teaser",
+      "featured",
+      "about",
+      "events"
     ]
   },
   {

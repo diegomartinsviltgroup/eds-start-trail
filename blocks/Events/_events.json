@@ -24,7 +24,7 @@
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "Event Item",
+              "name": "event-item",
               "model": "event-item"
             }
           }
