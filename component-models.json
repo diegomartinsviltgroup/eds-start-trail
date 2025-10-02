@@ -296,9 +296,16 @@
     "id": "featured-item",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Nome da marca",
+        "required": true
+      },
+      {
         "component": "reference",
         "name": "image",
-        "label": "Imagem do artista",
+        "label": "Logo da marca",
         "multi": false
       },
       {
@@ -307,30 +314,6 @@
         "name": "imageAlt",
         "label": "Image alt text",
         "required": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Nome do artista",
-        "required": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "text",
-        "label": "Descrição do evento",
-        "required": true
-      },
-      {
-        "name": "link",
-        "component": "aem-content",
-        "label": "Link do botão"
-      },
-      {
-        "name": "linkText",
-        "component": "text",
-        "label": "Texto do botão"
       }
     ]
   },
