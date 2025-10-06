@@ -366,11 +366,14 @@
         "value": ""
       },
       {
-        "component": "button",
-        "name": "button",
-        "value": "",
-        "label": "Button",
-        "valueType": "string"
+        "name": "link",
+        "component": "aem-content",
+        "label": "Link do botão"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Texto do botão"
       }
     ]
   },
