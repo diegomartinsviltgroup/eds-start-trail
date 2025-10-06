@@ -250,6 +250,21 @@
           }
         },
         {
+          "title": "Hero Item",
+          "id": "hero-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "hero-item",
+                  "model": "hero-item"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Teaser",
           "id": "teaser",
           "plugins": {

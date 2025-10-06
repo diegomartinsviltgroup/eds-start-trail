@@ -56,5 +56,11 @@
     "components": [
       "featured-item"
     ]
+  },
+  {
+    "id": "hero",
+    "components": [
+      "hero-item"
+    ]
   }
 ]
