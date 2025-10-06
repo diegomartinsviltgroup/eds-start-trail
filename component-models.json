@@ -357,6 +357,20 @@
         "value": "",
         "label": "Button",
         "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image2",
+        "label": "Imagem pequena",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image2Alt",
+        "label": "Alt Imagem pequena",
+        "value": ""
       }
     ]
   },
