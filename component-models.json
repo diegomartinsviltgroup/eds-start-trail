@@ -328,7 +328,7 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "hero-item",
     "fields": [
       {
         "component": "richtext",
@@ -336,12 +336,7 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "hero-item",
-    "fields": [
+      },
       {
         "component": "reference",
         "valueType": "string",
