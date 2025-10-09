@@ -1,37 +1,29 @@
-.hero-container .hero-wrapper {
-    max-width: 1900px;
-    padding: 0;
+.section.hero-container {
+    width: 100vw;
+    min-height: 100vh;
 }
 
-.hero {
-    position: relative;
-    padding: 40px 24px;
-    min-height: 300px;
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: #d30f59;
+    color: white;
+    border-radius: 12px;
 }
 
-.hero h1 {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--background-color);
-}
-
-.hero picture {
-    object-fit: cover;
-}
-
-.hero img {
-    object-fit: cover;
+.hero-block {
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 100%;
 }
 
-.hero p {
-    color: #fff;
-}
-
-@media (width >= 900px) {
-    .hero {
-        padding: 40px 32px;
+.hero-carousel {
+    picture,
+    img {
+        height: 100%;
+        width: 100%;
     }
 }
