@@ -58,20 +58,6 @@
           "value": ""
         },
         {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image2",
-          "label": "Imagem pequena",
-          "multi": false
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "image2Alt",
-          "label": "Alt Imagem pequena",
-          "value": ""
-        },
-        {
           "name": "link",
           "component": "aem-content",
           "label": "Link do botão"

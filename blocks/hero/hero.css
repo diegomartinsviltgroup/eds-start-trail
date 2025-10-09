@@ -1,29 +1,18 @@
 .section.hero-container {
     width: 100vw;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
-.hero-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    background: #d30f59;
-    color: white;
-    border-radius: 12px;
-}
-
-.hero-block {
-    position: absolute;
-    top: 0;
+.hero-wrapper,
+.hero.block,
+.hero-carousel,
+.hero-slide {
     width: 100%;
     height: 100%;
 }
 
-.hero-carousel {
-    picture,
-    img {
-        height: 100%;
-        width: 100%;
-    }
+.hero-image-x {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
