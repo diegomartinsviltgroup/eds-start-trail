@@ -1,3 +1,14 @@
-.teste2 {
-    background-color: aliceblue;
+.about__image--wrapper,
+.about__title--wrapper,
+.about__text--wrapper,
+.about__cta--wrapper {
+    width: 100%;
+}
+
+.about__image--wrapper {
+    picture,
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
 }

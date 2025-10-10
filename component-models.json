@@ -314,6 +314,13 @@
         "name": "imageAlt",
         "label": "Image alt text",
         "required": true
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
       }
     ]
   },
