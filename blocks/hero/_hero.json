@@ -38,7 +38,7 @@
       "fields": [
         {
           "component": "richtext",
-          "name": "text",
+          "name": "title",
           "value": "",
           "label": "Text",
           "valueType": "string"
@@ -60,7 +60,7 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "text_content",
+          "name": "text",
           "label": "Conteúdo do texto"
         },
         {
