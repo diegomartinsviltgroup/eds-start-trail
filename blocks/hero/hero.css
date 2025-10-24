@@ -1,6 +1,9 @@
 .section.hero-container {
     width: 100vw;
     height: 100vh;
+    padding: 80px;
+    margin: unset;
+    position: relative;
 }
 
 .hero-wrapper,
@@ -11,21 +14,25 @@
     height: 100%;
 }
 
-.hero-carousel {
-    position: relative;
-    padding: 80px;
-}
-
-.hero-slide {
+.hero-wrapper {
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
 
+.hero-carousel {
+    position: absolute;
+}
+
+.hero-slide {
+    position: absolute;
+}
+
 .hero-image-x {
     picture,
     img {
-        width: 100%;
         height: 100vh;
         object-fit: cover;
     }
@@ -33,4 +40,6 @@
 
 .hero-title {
     position: absolute;
+    left: 10%;
+    top: 30%;
 }

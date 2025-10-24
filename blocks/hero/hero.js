@@ -10,7 +10,11 @@ export default function decorate(block) {
     title.classList.add("hero-title");
     imageX.classList.add("hero-image-x");
     button.classList.add("hero-button");
-
+    const p = document.querySelector(".hero-title");
+    const h1 = document.createElement("h1");
+    title.appendChild(h1);
+    h1.textContent = p.textContent;
+    p.querySelector("p").remove();
     container.appendChild(element);
   });
 
