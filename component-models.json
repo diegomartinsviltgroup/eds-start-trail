@@ -352,6 +352,12 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "text_content",
+        "label": "Conteúdo do texto"
+      },
+      {
         "name": "link",
         "component": "aem-content",
         "label": "Link do botão"
