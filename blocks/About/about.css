@@ -1,12 +1,13 @@
-.about__image--wrapper,
-.about__title--wrapper,
-.about__text--wrapper,
-.about__cta--wrapper {
+.about-image-wrapper,
+.about-title-wrapper,
+.about-text-wrapper,
+.about-cta-wrapper {
     width: 100%;
 }
 
-.about__image--wrapper {
+.about-image-wrapper {
     height: 100vh;
+
     picture,
     img {
         height: 100%;
