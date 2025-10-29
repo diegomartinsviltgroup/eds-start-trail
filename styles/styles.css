@@ -79,6 +79,7 @@ body {
     color: var(--gray);
     text-decoration: none;
     margin-top: 40px;
+    width: 100%;
 
     &:hover {
         background: var(--gray);

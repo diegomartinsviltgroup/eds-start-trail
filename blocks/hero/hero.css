@@ -1,6 +1,6 @@
 .section.hero-container {
     width: 100vw;
-    height: 710px;
+    height: 100vh;
     padding: 80px;
     margin: unset;
     position: relative;
@@ -47,9 +47,8 @@
 
 .hero-title {
     font-size: 48px;
-    font-family: "Inter";
     line-height: 1.2;
-    color: #ffffff;
-    margin: 0 0 20px 0;
+    color: #fff;
+    margin: 0 0 20px;
     font-weight: 800;
 }

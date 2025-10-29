@@ -1,10 +1,85 @@
+.events-wrapper {
+    overflow: auto;
+    margin-top: 80px;
+}
+
+.events.block {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    overflow: auto hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; /* <- ativa o scroll snap */
+    padding: 20px 0;
+    -webkit-overflow-scrolling: touch; /* suaviza no mobile */
+}
+
+.events.block::-webkit-scrollbar {
+    height: 4px;
+}
+
+.events.block::-webkit-scrollbar-thumb {
+    background: #ff006a; /* cor da barra */
+    border-radius: 4px;
+}
+
 .events-items-wrapper {
-    width: 100%;
+    width: 100vw;
+    height: 90vh;
+    min-width: 0; /* evita overflow */
+    background-color: var(--gray);
+    flex: 0 0 auto; /* respeita a largura do item */
+    scroll-snap-align: start; /* <- trava a rolagem no início de cada item */
+    scroll-snap-stop: always; /* <- força parar exatamente no item */
+}
+
+.events-item-image {
+    height: 60%;
 
     picture,
     img {
-        width: 100%;
+        display: block;
+        max-width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+}
+
+.events-item-title {
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--pink);
+}
+
+.events-item-text {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.events-item-text p {
+    display: block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    margin: 0;
+}
+
+.events-item-cta {
+    width: 100%;
+
+    > .button-container {
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        padding: 0 20px;
+        text-align: center;
     }
 }
