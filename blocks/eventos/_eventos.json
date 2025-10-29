@@ -1,16 +1,16 @@
 {
   "definitions": [
     {
-      "title": "Events",
-      "id": "events",
+      "title": "Eventos",
+      "id": "eventos",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "Events",
-              "model": "events",
-              "filter": "events"
+              "name": "Eventos",
+              "model": "eventos",
+              "filter": "eventos"
             }
           }
         }
@@ -122,7 +122,7 @@
   ],
   "filters": [
     {
-      "id": "events",
+      "id": "eventos",
       "components": ["event-item", "event-cta"]
     }
   ]
