@@ -24,13 +24,6 @@
     ]
   },
   {
-    "id": "events",
-    "components": [
-      "event-item",
-      "event-cta"
-    ]
-  },
-  {
     "id": "cards",
     "components": [
       "card"
@@ -49,6 +42,13 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "events",
+    "components": [
+      "event-item",
+      "event-cta"
     ]
   },
   {
