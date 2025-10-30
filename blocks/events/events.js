@@ -1,5 +1,6 @@
 export default function decorate(block) {
   const items = Array.from(block.children);
+
   items.forEach((item) => {
     item.classList.add('events-items-wrapper');
     const [image, title, text, cta] = item.children;
