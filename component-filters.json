@@ -45,7 +45,7 @@
     ]
   },
   {
-    "id": "eventos",
+    "id": "events",
     "components": [
       "event-item",
       "event-cta"
