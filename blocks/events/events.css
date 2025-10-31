@@ -77,13 +77,34 @@
 
 .events-item-cta {
     width: 100%;
+    position: absolute;
+    bottom: 0;
 
     > .button-container {
         display: block;
         width: 100%;
-        padding: 0 20px;
         text-align: center;
     }
+}
+
+.events-item-text {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 70%;
+}
+
+.events-item-text p,
+.events-item-title p {
+    display: block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    margin: 0;
 }
 
 .events-items-wrapper.cta {
@@ -95,6 +116,12 @@
 
     > .events-item-title {
         position: unset;
+        color: var(--background-color);
+    }
+
+    > .events-item-text {
+        position: unset;
+        top: unset;
         color: var(--background-color);
     }
 
@@ -118,17 +145,17 @@
 
 .events-item-image::after {
     width: 100%;
-    height: 80%;
+    height: 100%;
     content: "";
     position: absolute;
     inset: 0; /* top, right, bottom, left = 0 */
-    background: linear-gradient(to bottom, rgb(0 0 0 / 60%), transparent);
+    background: linear-gradient(to top, rgb(0 0 0 / 60%), transparent);
     mix-blend-mode: multiply; /* combina as camadas */
     pointer-events: none; /* não bloqueia cliques */
 }
 
 .events-item-image {
-    height: 80%;
+    height: 100%;
 
     picture,
     img {
@@ -137,22 +164,4 @@
         height: 100%;
         object-fit: cover;
     }
-}
-
-.events-item-text {
-    padding: 20px;
-    display: block;
-    width: 100%;
-    min-width: 0;
-    overflow: hidden;
-}
-
-.events-item-text p,
-.events-item-title p {
-    display: block;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    white-space: normal;
-    margin: 0;
 }
