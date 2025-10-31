@@ -289,6 +289,23 @@
         "name": "ctaText",
         "component": "text",
         "label": "Texto do botão"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "cta",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "cta",
+            "value": "cta"
+          },
+          {
+            "name": "event",
+            "value": "details"
+          }
+        ]
       }
     ]
   },
