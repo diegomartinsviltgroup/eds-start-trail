@@ -96,14 +96,14 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "title",
-          "label": "Descrição cta",
+          "name": "title_cta",
+          "label": "Título cta",
           "required": true
         },
         {
           "component": "text",
           "valueType": "string",
-          "name": "text",
+          "name": "text_cta",
           "label": "Descrição do evento",
           "required": true
         },
@@ -116,23 +116,6 @@
           "name": "ctaText",
           "component": "text",
           "label": "Texto do botão"
-        },
-        {
-          "component": "select",
-          "name": "classes",
-          "value": "",
-          "label": "Perfil do item",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "artista",
-              "value": "artist"
-            },
-            {
-              "name": "cta",
-              "value": "cta"
-            }
-          ]
         }
       ]
     }
