@@ -289,6 +289,23 @@
         "name": "ctaText",
         "component": "text",
         "label": "Texto do botão"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Perfil do item",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "artista",
+            "value": "artist"
+          },
+          {
+            "name": "cta",
+            "value": "cta"
+          }
+        ]
       }
     ]
   },
