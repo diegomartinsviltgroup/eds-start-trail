@@ -260,6 +260,12 @@
         "name": "linkText",
         "component": "text",
         "label": "Texto do botão"
+      },
+      {
+        "component": "boolean",
+        "label": "Bloco CTA",
+        "name": "boolean",
+        "valueType": "boolean"
       }
     ]
   },
@@ -289,6 +295,12 @@
         "name": "ctaText",
         "component": "text",
         "label": "Texto do botão"
+      },
+      {
+        "component": "boolean",
+        "label": "Bloco CTA",
+        "name": "boolean",
+        "valueType": "boolean"
       }
     ]
   },
