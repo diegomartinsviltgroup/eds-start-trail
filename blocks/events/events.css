@@ -96,7 +96,7 @@
     min-width: 0;
     overflow: hidden;
     position: absolute;
-    top: 70%;
+    bottom: 60px;
 }
 
 .events-item-text p,
@@ -150,10 +150,10 @@
     height: 100%;
     content: "";
     position: absolute;
-    inset: 0; /* top, right, bottom, left = 0 */
+    inset: 0;
     background: linear-gradient(to top, rgb(0 0 0 / 60%), transparent);
-    mix-blend-mode: multiply; /* combina as camadas */
-    pointer-events: none; /* não bloqueia cliques */
+    mix-blend-mode: multiply;
+    pointer-events: none;
 }
 
 .events-item-image {
