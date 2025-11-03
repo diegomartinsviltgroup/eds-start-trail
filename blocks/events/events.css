@@ -47,7 +47,7 @@
 .events-items-wrapper {
     width: 50%;
     height: 70vh;
-    max-height: 1900px;
+    max-height: 800px;
     background-color: var(--gray);
     position: relative;
 
