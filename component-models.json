@@ -222,18 +222,6 @@
     ]
   },
   {
-    "id": "events",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Título da seção",
-        "required": true
-      }
-    ]
-  },
-  {
     "id": "event-item",
     "fields": [
       {
