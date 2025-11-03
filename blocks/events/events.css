@@ -46,13 +46,15 @@
 
 .events-items-wrapper {
     width: 50%;
-    height: 50vh;
+    height: 70vh;
+    max-height: 1900px;
     background-color: var(--gray);
     position: relative;
 
     @media (width <= 768px) {
         width: 100vw;
         height: 90vh;
+        max-height: 800px;
         min-width: 0; /* evita overflow */
         flex: 0 0 auto; /* respeita a largura do item */
         scroll-snap-align: start; /* <- trava a rolagem no início de cada item */
