@@ -1,6 +1,7 @@
 .section.hero-container {
     width: 100vw;
     height: 100vh;
+    max-height: 100vh;
     padding: 80px;
     margin: unset;
     position: relative;
