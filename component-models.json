@@ -248,7 +248,7 @@
         "component": "text",
         "valueType": "string",
         "name": "text",
-        "label": "Descrição do evento",
+        "label": "Data: xx mês",
         "required": true
       },
       {
