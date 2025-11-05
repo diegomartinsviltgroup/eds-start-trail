@@ -6,9 +6,10 @@
     position: relative;
 }
 
-.section-title {
+.section-title h2 {
     font-size: 60px;
-    font-weight: 700;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
     color: var(--white);
     line-height: 1.2;
     font-style: italic;
@@ -23,6 +24,6 @@
     background-color: var(--pink);
     position: absolute;
     left: 0;
-    bottom: 10%;
+    bottom: 15%;
     z-index: -1;
 }

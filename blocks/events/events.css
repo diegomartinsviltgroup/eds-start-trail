@@ -65,7 +65,6 @@
 .events-item-title {
     padding: 20px;
     font-size: 60px;
-    font-weight: 800;
     font-style: italic;
     color: var(--pink);
     display: block;
@@ -74,6 +73,7 @@
     overflow: hidden;
     position: absolute;
     top: 20px;
+    font-weight: 900;
 }
 
 .events-item-cta {
@@ -96,6 +96,10 @@
     overflow: hidden;
     position: absolute;
     bottom: 60px;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 42px;
 }
 
 .events-item-text p,
@@ -106,6 +110,13 @@
     word-wrap: break-word;
     white-space: normal;
     margin: 0;
+    text-align: right;
+}
+
+.events-item-text p {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
 }
 
 .events-items-wrapper.cta {
@@ -117,13 +128,15 @@
 
     > .events-item-title {
         position: unset;
-        color: var(--background-color);
+        color: var(--white);
+        font-size: 48px;
     }
 
     > .events-item-text {
         position: unset;
         top: unset;
         color: var(--background-color);
+        font-size: 18px;
     }
 
     & .button-container {
