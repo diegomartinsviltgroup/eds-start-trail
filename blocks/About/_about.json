@@ -36,13 +36,6 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "title",
-          "label": "Título da seção",
-          "required": true
-        },
-        {
-          "component": "text",
-          "valueType": "string",
           "name": "text",
           "label": "Texto da seção",
           "required": true
