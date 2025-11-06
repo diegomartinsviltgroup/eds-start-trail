@@ -85,3 +85,7 @@ body {
         color: var(--pink);
     }
 }
+
+.section {
+    margin-bottom: 80px;
+}
